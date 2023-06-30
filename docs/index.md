@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Softnet Management System
+title: The User Guide to Softnet MS
 nav_order: 0
 permalink: /
 ---
