@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Softnet MS
 description: The User Guide to Softnet Management System
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://softnet-free.github.io/softnet-ms" # the base hostname & protocol for your site, e.g. http://example.com
 repository: Softnet-Free/softnet-ms # for github-metadata
 
@@ -50,7 +50,7 @@ exclude:
    - fixtures/
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/catpaw.png"
+logo: "/assets/images/logo.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
