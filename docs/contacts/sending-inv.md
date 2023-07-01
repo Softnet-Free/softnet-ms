@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 8.2. Creating a contact
+title: 8.2. Sending a contact invitation
 parent: 8. Contacts & partnerships
 nav_order: 2
 ---
 
-## 8.2. Creating a contact
+## 8.2. Sending a contact invitation
 
 To create a contact with a person or organization, you first need to find them and send an invitation. Clicking the "<span class="text-cyan">new invitation</span>" button takes you to the "<span class="header-green">NEW INVITATION</span>" page:
 
@@ -19,7 +19,7 @@ In the image below, "s ger" is used to search for Sophie German:
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.2_3.png %})
 
-In the next image, the first page of the entire list is displayed:
+The following image shows the first page of the entire list:
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.2_4.png %})
 
@@ -31,8 +31,10 @@ Now in "<span class="header-green">INVITATIONS SENT</span>", there is a new item
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.2_6.png %})
 
+After the invitation sent, the contact will be created when your counterparty accepts the invitation. The [next section]({{ site.baseurl }}{% link docs/contacts/handling-inv.md %}) discusses handling an invitation.
 
 ---
 #### TABLE OF CONTENTS
 * [8.1. MY CONTACTS]({{ site.baseurl }}{% link docs/contacts/my-contacts.md %})
 * 8.2. Creating a contact
+* [8.3. Handling a contact invitation]({{ site.baseurl }}{% link docs/contacts/handling-inv.md %})

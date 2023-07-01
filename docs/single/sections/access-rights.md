@@ -35,7 +35,7 @@ Then we go to the site configuration page by clicking the "config" button:
 
 You can see that both users, Owner and Alex, are in the <span class="text-red">DENIED USERS</span> section. We'll now assign the <span class="text-role">Administrator</span> role to Owner, and the <span class="text-role">User</span> role to Alex.  
 
-Clicking the "&gt;&gt;" button, which is to the right of Owner, opens the editor for managing roles of Owner:
+Clicking the "&gt;&gt;" button, which is to the left of Owner, opens the editor for managing roles of Owner:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.3_6.png %})
 

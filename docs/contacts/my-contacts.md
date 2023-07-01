@@ -31,4 +31,5 @@ In the image below, the contact name of Arthur Koifman is set to Archie Koifman 
 ---
 #### TABLE OF CONTENTS
 * 8.1. MY CONTACTS
-* [8.2. Creating a contact]({{ site.baseurl }}{% link docs/contacts/new-contact.md %})
+* [8.2. Sending a contact invitation]({{ site.baseurl }}{% link docs/contacts/sending-inv.md %})
+* [8.3. Handling a contact invitation]({{ site.baseurl }}{% link docs/contacts/handling-inv.md %})
