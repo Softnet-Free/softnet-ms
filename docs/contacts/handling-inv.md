@@ -11,7 +11,7 @@ When you receive a contact invitation, the management panel displays a correspon
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.3_1.png %})
 
-Clicking the notification message takes you to the "INVITATIONS RECEIVED" page:
+Clicking the notification message takes you to the INVITATIONS RECEIVED page:
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.3_2.png %})
 
@@ -28,3 +28,4 @@ Similarly, Karina Koifman has been added to the contact list of John Doe:
 * [8.1. MY CONTACTS]({{ site.baseurl }}{% link docs/contacts/my-contacts.md %})
 * [8.2. Sending a contact invitation]({{ site.baseurl }}{% link docs/contacts/sending-inv.md %})
 * 8.3. Handling a contact invitation
+* [8.4. Using contacts]({{ site.baseurl }}{% link docs/contacts/using-contacts.md %})
