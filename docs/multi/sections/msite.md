@@ -15,7 +15,7 @@ We can leave the "description" field empty and click "Create", which creates a s
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.2_2.png %})
 
-This is a blank site on which we can install a single device. However, if we want to install multiple identical devices on the site, we need to convert it to multi-service by clicking the "multi-service hosting" button. Convertion must be done while the site is blank:  
+This is a blank site on which we can set up a single device. However, if we want to set up multiple identical devices on the site, we need to convert it to multi-service by clicking the "multi-service hosting" button. Convertion must be done while the site is blank:  
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.2_3.png %})
 
