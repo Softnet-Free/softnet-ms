@@ -7,11 +7,11 @@ nav_order: 2
 
 ## 4.2. Creating a multi-service site
 
-To install several IP cameras, we need to create a multi-service site. The devices will be presented on the site as a list of services. Clicking the “new site” button takes us to the “New Site” page:
+To set up several IP cameras, we need to create a multi-service site. The devices will be represented on the site as a list of services. Clicking the “new site” button takes us to the “New Site” page:
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.2_1.png %})
 
-We leave the "description" field empty and click "Create". This creates a site and takes us to the SITE CONFIGURATION page:  
+We can leave the "description" field empty and click "Create", which creates a site and takes us to the SITE CONFIGURATION page:  
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.2_2.png %})
 

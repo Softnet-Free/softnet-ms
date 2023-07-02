@@ -32,7 +32,7 @@ Of course, the service account parameters will be different in your case. Enter 
 
 ### Site with Role-Based Access Control
 
-If your device employs RBAC, the site will be constructed accordingly. As an example, let's take an IP camera device, which uses three roles <span class="text-role">Administrator</span>, <span class="text-role">Operator</span> and <span class="text-role">User</span> to implement different levels of access to the device. The site constructed for our example has the following view:
+If your device employs RBAC, the site will be constructed accordingly. As an example, let's take an IP camera, which uses three roles <span class="text-role">Administrator</span>, <span class="text-role">Operator</span> and <span class="text-role">User</span> to implement different levels of access to the device. The site constructed for our example has the following view:
 
 ![]({{ site.baseurl }}{% link assets/images/image_msite.2_5.png %})
 

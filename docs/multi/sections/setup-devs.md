@@ -44,7 +44,7 @@ We enter the name "Camera 1" to the text field and click the "save" button. Then
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.3_8.png %})
 
-So far we set up only one device. To set up the next device, we create a new service entity. Clicking the "new service" button displays a textbox for entering the hostname for a new service:
+So far we set up only one device. To set up the next one, we create a new service entity. Clicking the "new service" button displays a textbox for entering the hostname for a new service:
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.3_9.png %})
 

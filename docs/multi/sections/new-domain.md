@@ -7,7 +7,7 @@ nav_order: 1
 
 ## 4.1. Creating a domain
 
-To deploy a project, we create a domain as it is demonstrated in section [Creating a domain]({{ site.baseurl }}{% link docs/domains/new-domain.md %}). We call the domain "Home Surveillance":  
+To deploy a project, we create a domain as it is demonstrated in section [Creating a domain]({{ site.baseurl }}{% link docs/domains/new-domain.md %}). We name the domain "Home Surveillance":  
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.1_1.png %})
 
