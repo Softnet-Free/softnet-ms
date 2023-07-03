@@ -28,7 +28,7 @@ For this example, we have the following service URI and password:
 &nbsp;&nbsp;&nbsp;&nbsp;softnet-srv://e286aef9-edbe-4175-9952-6cae5810131d@ts.softnet-iot.org  
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-orange">password:</span> NkZnsk8JLgcC  
 
-Of course, the service account parameters will be different in your case. Enter them into your device and connect it to the blank site. After building the site structure, your device will be represented on the site as a service. Depending on whether your device employs Role-Based Access Control or Plain Access Control, the site obtains an appropriate set of parameters, which we'll consider next. For more information on using access control, see the chapter "[Users & access rights]({{ site.baseurl }}{% link docs/access/index.md %})".
+Of course, the service account parameters will be different in your case. Enter them into your device and connect it to the blank site. After building the site structure, your device will be represented on the site as a service. Depending on whether your device employs Role-Based Access Control or Plain Access Control, the site obtains an appropriate set of parameters, which we'll consider next. For more information on using access control, see the chapter "[Users & access rights]({{ site.baseurl }}{% link docs/users/index.md %})".
 
 ### Site with Role-Based Access Control
 
@@ -49,11 +49,11 @@ In the descriptions below, a service application is software hosted or embedded 
 5.  Some service applications may specify a role that will be assigned to **Owner** when the site structure is built. In our example, the IP camera has specified the <span class="text-role">Administrator</span> role to assign to Owner;  
 6.	Users that do not have any access rights to the service are listed in the <span class="text-red">DENIED USERS</span> section.  
 
-For a detailed description of items 3 to 6 circled in the image above, see the "[Users & access rights]({{ site.baseurl }}{% link docs/access/index.md %})" chapter.  
+For a detailed description of items 3 to 6 circled in the image above, see the "[Users & access rights]({{ site.baseurl }}{% link docs/users/index.md %})" chapter.  
 
 ### Site with Plain Access Control
 
-If your device employs Plain Access Control, the domain users will have a full access to the device by the fact of being added to the site. The site constructed for such a device does not have parameters **3**, **4** and **5** of an RBAC-based site. Instead of them, it obtains one parameter called "Implicit users" that allows or denies the domain users that are not explicitly added to the site. See the "[Users & access rights]({{ site.baseurl }}{% link docs/access/index.md %})" chapter for details.  
+If your device employs Plain Access Control, the domain users will have a full access to the device by the fact of being added to the site. The site constructed for such a device does not have parameters **3**, **4** and **5** of an RBAC-based site. Instead of them, it obtains one parameter called "Implicit users" that allows or denies the domain users that are not explicitly added to the site. See the "[Users & access rights]({{ site.baseurl }}{% link docs/users/index.md %})" chapter for details.  
 
 The following image shows the site constructed for our IP camera that uses Plain Access Control:
 
