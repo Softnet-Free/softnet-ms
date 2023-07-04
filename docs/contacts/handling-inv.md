@@ -27,7 +27,7 @@ John Doe can set the user default name for this contact, such as "Karina":
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.3_5.png %})
 
-The user default name is used by the "New User" form to fill the "user name" field:
+The user default name is used by the NEW USER form to populate the "user name" field when selecting a contact:
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.3_6.png %})
 
