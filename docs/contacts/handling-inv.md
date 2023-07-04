@@ -23,6 +23,14 @@ Similarly, Karina Koifman has been added to the contact list of John Doe:
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.3_4.png %})
 
+John Doe can set the user default name for this contact, such as "Karina":
+
+![]({{ site.baseurl }}{% link assets/images/image_cont.3_5.png %})
+
+The user default name is used by the "New User" form to fill the "user name" field:
+
+![]({{ site.baseurl }}{% link assets/images/image_cont.3_6.png %})
+
 ---
 #### TABLE OF CONTENTS
 * [8.1. MY CONTACTS]({{ site.baseurl }}{% link docs/contacts/my-contacts.md %})

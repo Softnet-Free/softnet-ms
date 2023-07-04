@@ -15,11 +15,11 @@ The domain contains two users Owner and Guest. Owner is associated with the devi
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.4_2.png %})
 
-Here, we select a contact "Karina Koifman", enter the name "Karina" in the "user name" field, check the "Enabled" box and uncheck the "Dedicated" box:
+Here, we select the contact "Karina Koifman". The name "Karina", which is the default name for this contact, is substituted in the "user name" field by the form itself. We do not change it. Then we check the "Enabled" box and uncheck the "Dedicated" box:
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.4_3.png %})
 
-Clicking on the "Create" button takes us back to the domain page, where a new contact user Karina has appeared in the user list:
+Clicking on the "Create" button takes us back to the domain page, where a new Contact user Karina has appeared in the user list:
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.4_4.png %})
 
@@ -37,7 +37,7 @@ We check the <span class="text-role">User</span> role and click "<span class="te
 
 On the site, the name of a contact user is followed by the contact name in angle brackets. In our example, the name "Karina" is followed by the contact name "Karina Koifman" in angle brackets.  
 
-We are done with opening access to the IP cameras to Karina Koifman. Now we'll take a look at how she can consume these devices. The following is an account of Karina Koifman in Softnet MS:
+We are done with giving Karina Koifman access to the IP cameras. Now we'll take a look at how she can consume these devices. The following is an account of Karina Koifman in Softnet MS:
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.4_8.png %})
 
