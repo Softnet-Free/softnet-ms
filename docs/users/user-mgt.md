@@ -45,10 +45,16 @@ After adding two Contact users, Stewart and Robinson, the list of users in "Offi
 
 The third section of the <span class="header-green">NEW USER</span> panel is <span class="text-subheader">EXISTING USERS</span>, where the existing domain users are displayed.
 
-### 9.2.2. Editing the user list
+### 9.2.2. Editing the <span class="text-green">USER LIST</span>
 
 There is a set of operations that you can perform on the existing users. To the left of each user in the list there is a "<span class="text-blue">&gt;&gt;</span>" button. Clicking on this button puts the list item into edit mode. In the following image, the Contact user Stewart is in edit mode:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.2_8.png %})
 
 In edit mode, you can change the user name, make the user dedicated, disable or enable it, or you can delete it. If you make a user disabled, all client applications associated with the user are blocked with status "User Disabled". As for integrated users Owner and Guest, you can only disable/enable them.
+
+---
+#### TABLE OF CONTENTS
+* [9.1. Demo project]({{ site.baseurl }}{% link docs/users/demo.md %})
+* 9.2. User management
+* [9.3. Assigning access rights]({{ site.baseurl }}{% link docs/users/access-rights.md %})

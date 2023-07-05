@@ -15,3 +15,10 @@ If the site employs Role-Based Access Control, the owner can specify a default r
 
 
 If the site employs Plain Access Control, the owner can set the "Implicit users" option of the site to <span class="text-green">allowed</span>.  
+
+
+---
+#### TABLE OF CONTENTS
+* [9.1. Demo project]({{ site.baseurl }}{% link docs/users/demo.md %})
+* [9.2. User management]({{ site.baseurl }}{% link docs/users/user-mgt.md %})
+* 9.3. Assigning access rights

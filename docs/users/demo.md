@@ -21,3 +21,8 @@ The third demo project component is an alarm system called iSentry (Argus). The 
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.1_3.png %})
 
+---
+#### TABLE OF CONTENTS
+* 9.1. Demo project
+* [9.2. User management]({{ site.baseurl }}{% link docs/users/user-mgt.md %})
+* [9.3. Assigning access rights]({{ site.baseurl }}{% link docs/users/access-rights.md %})
