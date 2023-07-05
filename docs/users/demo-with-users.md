@@ -5,7 +5,7 @@ parent: 9. Users & access rights
 
 [Go back]({{ site.baseurl }}{% link docs/users/access-rights.md %})
 
-## The demo project "Office Automation"  
+### The demo project "Office Automation" before assigning access rights to users 
 <br/>
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_0.png %})
 

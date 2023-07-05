@@ -5,13 +5,17 @@ parent: 9. Users & access rights
 nav_order: 3
 ---
 
-## 9.3. Assigning access rights
+## 9.3. Assigning access rights to users
 
-This section discusses how to assign access rights to users for various services in a domain. Softnet supports two kinds of access control mechanisms: Role-Based Access Control (RBAC) and Plain Access Control (PAC). Which kind of access control is used by a given site is defined by the Site Structure provided by the service and applied to the site.  
+This section discusses how to assign access rights to users for various services in a domain. Softnet supports two kinds of access control: Role-Based Access Control (RBAC) and Plain Access Control (PAC). Which kind of access control is used by a given site depends on the Site Structure applied to the site. The Site Structure, as you know, is provided by the device that you set up on the site.  
 
-The demo project "[Office Automation]({{ site.baseurl }}{% link docs/users/office-automation.md %})" is used to demonstrate operations with access rights.
+To demonstrate operations with user access rights, the "Office Automation" demo project is used. [This is how the project looks now before assigning access rights to users]({{ site.baseurl }}{% link docs/users/demo-with-users.md %}).
 
-### 9.3.2. Default access rights & dedicated users
+### 9.3.1. User permissions when using RBAC
+
+### 9.3.2. User permissions when using PAC
+
+### 9.3.3. Default access rights & dedicated users
 
 Each site has an option to specify the default rights for domain users to access the service. However, this only applies to users who are not marked as dedicated. Using default rights may be convenient if you have more than a few users in the domain. This allows you to assign specific access rights to all users without having to do so explicitly for each user. Let's look at how to apply default access rights.  
 

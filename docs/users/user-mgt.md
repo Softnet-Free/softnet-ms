@@ -21,7 +21,7 @@ To create a new user, click the "<span class="text-blue">new user</span>" button
 
 The <span class="header-green">NEW USER</span> panel contains three sections. The first section <span class="text-subheader">PRIVATE USER</span> is for creating a Private user. It contains a text field "user name", and a checkbox labeled "Dedicated". Specify their values and click on "Create" to create a user.  
 
-As you can see, both the <span class="text-subheader">PRIVATE USER</span> and <span class="text-subheader">CONTACT USER</span> sections contain the "Dedicated" checkbox. This option makes the user **dedicated**, which means that the default access rights that some sites may set for the domain users are not applicable to this user. Using default rights may be convenient if you have more than a few users in the domain. For more information, see "[Default access rights & dedicated users]({{ site.baseurl }}{% link docs/users/access-rights.md %}#932-default-access-rights--dedicated-users)" in the next section.
+As you can see, both the <span class="text-subheader">PRIVATE USER</span> and <span class="text-subheader">CONTACT USER</span> sections contain the "Dedicated" checkbox. This option makes the user **dedicated**, which means that the default access rights that some sites may set for the domain users are not applicable to this user. Using default rights may be convenient if you have more than a few users in the domain. For more information, see "[Default access rights & dedicated users]({{ site.baseurl }}{% link docs/users/access-rights.md %}#933-default-access-rights--dedicated-users)" in the next section.
 
 In the following image, a Private user GuardPost is being created in the "Office Automation" domain of our demo project:
 
