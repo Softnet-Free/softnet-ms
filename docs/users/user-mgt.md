@@ -7,15 +7,23 @@ nav_order: 2
 
 ## 9.2. User management
 
-This section describes the features of various types of domain users and operations on them. It uses the "Office Automation" demo project to demonstrate these operations. Initially, a domain with two integrated users looks like this:
+This section describes the operations you can perform on domain users. Three kinds of users are considered: integrated user Owner, Private users and Contact users. Integrated user Guest is considered in "[Guest access & public services]({{ site.baseurl }}{% link docs/guest/index.md %})" chapter. The "Office Automation" demo project is used to demonstrate user management.
+
+### 9.2.1. Creating new users
+
+Initially, a domain with two integrated users looks like this:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.2_1.png %})
 
-To add a new user, click the "<span class="text-blue">new user</span>" button. It takes you to the following page:
+To create a new user, click the "<span class="text-blue">new user</span>" button. It takes you to the following page:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.2_2.png %})
 
-The <span class="header-green">NEW USER</span> panel contains three sections. The first section <span class="text-subheader">PRIVATE USER</span> is for creating a Private user. It contains a text field "user name", and a checkbox labeled "Dedicated". As you can see, the <span class="text-subheader">CONTACT USER</span> section also contains a "Dedicated" checkbox. This can be a useful feature in certain circumstances. We'll look at what it means for a user to be **dedicated** at the end of this section. To create a Private user, enter the name of a user in the "user name" field, select the value for the "Dedicated" checkbox and click "Create". In the following image, a private user GuardPost is being created in the "Office Automation" domain of our demo project:
+The <span class="header-green">NEW USER</span> panel contains three sections. The first section <span class="text-subheader">PRIVATE USER</span> is for creating a Private user. It contains a text field "user name", and a checkbox labeled "Dedicated". Specify their values and click on "Create" to create a user.  
+
+As you can see, both the <span class="text-subheader">PRIVATE USER</span> and <span class="text-subheader">CONTACT USER</span> sections contain the "Dedicated" checkbox. This option makes the user **dedicated**, which means that the default access rights that some sites may set for the domain users are not applicable to this user. Using default rights may be convenient if you have more than a few users in the domain. For more information, see "[Default access rights & dedicated users]({{ site.baseurl }}{% link docs/users/access-rights.md %}#932-default-access-rights--dedicated-users)" in the next section.
+
+In the following image, a Private user GuardPost is being created in the "Office Automation" domain of our demo project:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.2_3.png %})
 
@@ -27,17 +35,20 @@ The <span class="text-subheader">CONTACT USER</span> section of the <span class=
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.2_5.png %})
 
-First you need to select a contact from the contact list. If the user default name has been previously set for the selected contact, it is populated in the "user name" field. In the following image, a contact "Ben Stewart" is selected. The user default name “Stewart” was previously set for this contact, so it is populated in the “user name” field:
+First you need to select a contact from the contact list. If the user default name was previously set for the selected contact, it is populated in the “user name” field which you can change if you wish, otherwise you enter it manually. Then you need to specify the values for the "Dedicated" and "Enabled" checkboxes and click "Create". In the following image, the contact "Ben Stewart" is selected. The user default name “Stewart” was previously set for this contact, so it is populated in the “user name” field:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.2_6.png %})
 
-Clicking the "Create" button adds a new user. After adding two Contact users, Stewart and Robinson, the list of users in "Office Automation" looks like this:
+After adding two Contact users, Stewart and Robinson, the list of users in "Office Automation" looks like this:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.2_7.png %})
 
-Each site has the ability to specify the default rights for domain users to access the service. However, this only applies to users who are not marked as dedicated. Now let's see how they look like the default access rights. If the site employs Role-Based Access Control, the owner can specify a default role for all domain users by setting the "<span class="text-blue">user default role</span>" option to one of the roles declared on the site. If such a role is specified, for each user who equired this role, it will be underlined.  
+The third section of the <span class="header-green">NEW USER</span> panel is <span class="text-subheader">EXISTING USERS</span>, where the existing domain users are displayed.
 
+### 9.2.2. Editing the user list
 
- If the site employs Plain Access Control, the owner can set the "Implicit users" option of the site to <span class="text-green">allowed</span>.  
+There is a set of operations that you can perform on the existing users. To the left of each user in the list there is a "<span class="text-blue">&gt;&gt;</span>" button. Clicking on this button puts the list item into edit mode. In the following image, the Contact user Stewart is in edit mode:
 
+![]({{ site.baseurl }}{% link assets/images/image_usr.2_8.png %})
 
+In edit mode, you can change the user name, make the user dedicated, disable or enable it, or you can delete it. If you make a user disabled, all client applications associated with the user are blocked with status "User Disabled". As for integrated users Owner and Guest, you can only disable/enable them.
