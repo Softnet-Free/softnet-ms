@@ -21,13 +21,13 @@ In the <span class="header-green">SITE CONFIGURATION</span> panel, the user role
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_2.png %})
 
-Clicking the "<span class="text-green">save</span>" button moves the user to the "<span class="text-blue">users</span>" section of the site:
+Clicking the "<span class="text-green">save</span>" button assigns the role to the user and moves it to the "<span class="text-blue">users</span>" section of the site:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_3.png %})
 
 Stewart is a Contact user associated with the contact Ben Stewart. Now he can create client entities and set up client applications that can interact with IP cameras with the rights of the "<span class="text-role">User</span>" role. [Here you can see another complete example of granting access to IP cameras to a contact]({{ site.baseurl }}{% link docs/contacts/using-contacts.md %}).  
 
-In addition, we assigne the "<span class="text-role">Administrator</span>" role to Owner, and the "<span class="text-role">Operator</span>" role to GuardPost. After this we have the following view of the "<span class="text-blue">users</span>" section:
+In addition, we assign the "<span class="text-role">Administrator</span>" role to Owner, and the "<span class="text-role">Operator</span>" role to GuardPost. After this we have the following view of the "<span class="text-blue">users</span>" section:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_4.png %})
 
