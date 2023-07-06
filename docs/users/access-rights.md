@@ -13,7 +13,7 @@ To demonstrate operations with user access rights, the "Office Automation" demo 
 
 ### 9.3.1. Managing user rights on a site that uses RBAC
 
-If the service application set up on the site employs role-based access control, the list of roles are displayed on the site in the "<span class="text-blue">supported roles</span>" section. In the image below, IP cameras set up on one of our demo project sites support three user roles: "<span class="text-role">Administrator</span>", "<span class="text-role">Operator</span>" and "<span class="text-role">User</span>": 
+If the service application set up on the site employs role-based access control, the list of roles are displayed on the site in the "<span class="text-blue">supported roles</span>" section. In the image below, IP cameras support three user roles: "<span class="text-role">Administrator</span>", "<span class="text-role">Operator</span>" and "<span class="text-role">User</span>": 
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_1.png %})
 
@@ -25,7 +25,7 @@ Clicking the "<span class="text-green">save</span>" button moves the user to the
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_3.png %})
 
-Stewart is a Contact user associated with the contact Ben Stewart. Now he can create client entities and set up client applications that can interact with IP cameras with the rights of the "<span class="text-role">User</span>" role. [Here you can see an another complete example of granting a contact access to IP cameras]({{ site.baseurl }}{% link docs/contacts/using-contacts.md %}).  
+Stewart is a Contact user associated with the contact Ben Stewart. Now he can create client entities and set up client applications that can interact with IP cameras with the rights of the "<span class="text-role">User</span>" role. [Here you can see another complete example of granting access to IP cameras to a contact]({{ site.baseurl }}{% link docs/contacts/using-contacts.md %}).  
 
 In addition, we assigne the "<span class="text-role">Administrator</span>" role to Owner, and the "<span class="text-role">Operator</span>" role to GuardPost. After this we have the following view of the "<span class="text-blue">users</span>" section:
 
