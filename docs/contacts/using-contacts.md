@@ -7,7 +7,7 @@ nav_order: 4
 
 ## 8.4. Using contacts
 
-This section briefly demonstrates you how to give contacts access to devices. In the "[Multi-service site]({{ site.baseurl }}{% link docs/msite/index.md %})" chapter, there is an example where John Doe creates a "Home Surveillance" domain and deploys multiple IP cameras. Let's grant access to the IP cameras from that example to the contact we've created in this chapter. The following image shows the John Doe's domain "Home Surveillance":  
+This section briefly demonstrates you how to give a contact access to devices. In the "[Multi-service site]({{ site.baseurl }}{% link docs/msite/index.md %})" chapter, there is an example where John Doe creates a "Home Surveillance" domain and deploys multiple IP cameras. Let's grant access to the IP cameras from that example to the contact we've created in this chapter. The following image shows the John Doe's domain "Home Surveillance":  
 
 ![]({{ site.baseurl }}{% link assets/images/image_cont.4_1.png %})
 
