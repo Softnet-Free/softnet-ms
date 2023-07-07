@@ -31,14 +31,38 @@ In addition, we assign the "<span class="text-role">Administrator</span>" role t
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_4.png %})
 
-### 9.3.2. Managing user rights on a site that uses PAC
+### 9.3.2. Managing user rights on a site that uses Plain Access Control
+
+If the service application set up on the site employs plain access control, users have a full access to the service by the fact of being added to the site. PAC is used when the service application does not require different levels of access, or the application implements its own access control mechanism.  
+
+In the <span class="header-green">SITE CONFIGURATION</span> panel, users added to the site explicitly are displayed in the "<span class="text-blue">explicit users</span>" section. Some users may be added to the site implicitly, which is the subject of the next subsection below. Users without access rights are displayed in the <span class="text-red">DENIED USERS</span> section. In the following image, Owner is explicitly added to the site "Alarm System" of our demo project:
+
+![]({{ site.baseurl }}{% link assets/images/image_usr.3_5.png %})
+
+In the <span class="text-red">DENIED USERS</span> section, to the left of each domain user, there is an "<span class="text-cyan">add</span>" button that, when clicked, adds a user to the site. Those users that are already added to the site has a "<span class="text-cyan">rem</span>" button that, when clicked, removes a user from the site.
 
 ### 9.3.3. Default access rights & dedicated users
 
-Each site has an option to specify the default rights for domain users to access the service. However, this only applies to users who are not marked as dedicated. Using default rights may be convenient if you have more than a few users in the domain. This allows you to assign specific access rights to all users without having to do so explicitly for each user. Let's look at how to apply default access rights.  
+Each site has an option to specify the default rights for users to access the service. However, this only applies to users who are not marked as dedicated. The dedicated users acquire only those rights that you assign then explicitly. Using default rights may be convenient if you have more than a few users in the domain. This allows you to assign some minimum access rights to all users without having to do so explicitly for each user. Let's look at how to apply default access rights.  
 
-If the site employs Role-Based Access Control, the owner can specify a default role for all domain users by setting the "<span class="text-blue">user default role</span>" option to one of the roles declared on the site. If such a role is specified, for each user who equired this role, it will be underlined.  
+If the site employs Role-Based Access Control, the owner can specify a default role for all domain users by setting the "<span class="text-blue">user default role</span>" option to one of the roles declared on the site. 
+Each user that is given a default role will have it underlined. However, if some of the users must not have the default rights, you can make them dedicated. Note that dedicated users are also underlined.
 
+Let's recall our demo site "Surveillance System". Earlier, we explicitly assigned roles to three users, and two Contact users remained in the <span class="text-red">DENIED USERS</span> section (Guest not considered):
+
+![]({{ site.baseurl }}{% link assets/images/image_usr.3_6.png %})
+
+Let's make "<span class="text-role">User</span>" the default role and see what happens:
+
+![]({{ site.baseurl }}{% link assets/images/image_usr.3_7.png %})
+
+Each user acquired the "<span class="text-role">User</span>" role. As the default role, it is underlined except for the Assistant, which is explicitly assigned this role. Assume we do not want Stewart to have any access to the IP cameras, then we make it dedicated so that it could not acquire the default role:
+
+![]({{ site.baseurl }}{% link assets/images/image_usr.3_8.png %})
+
+After clicking "<span class="text-green">save</span>" we have the following view (note that Stewart is underlined as dedicated user):
+
+![]({{ site.baseurl }}{% link assets/images/image_usr.3_9.png %})
 
 If the site employs Plain Access Control, the owner can set the "Implicit users" option of the site to <span class="text-green">allowed</span>.  
 
