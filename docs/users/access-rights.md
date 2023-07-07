@@ -43,10 +43,9 @@ In the <span class="text-red">DENIED USERS</span> section, to the left of each d
 
 ### 9.3.3. Default access rights & dedicated users
 
-Each site has an option to specify the default rights for users to access the service. However, this only applies to users who are not marked as dedicated. The dedicated users acquire only those rights that you assign then explicitly. Using default rights may be convenient if you have more than a few users in the domain. This allows you to assign some minimum access rights to all users without having to do so explicitly for each user. Let's look at how to apply default access rights.  
+Each site has an option to specify the default rights for users to access the service. However, this only applies to users who are not marked as dedicated. The dedicated users acquire only those rights that you assign them explicitly. Using default rights may be convenient if you have more than a few users in the domain. This allows you to assign some minimum access rights to all users without having to do so explicitly for each user. Let's look at how to apply default access rights, first when using RBAC and then when using PAC.   
 
-If the site employs Role-Based Access Control, the owner can specify a default role for all domain users by setting the "<span class="text-blue">user default role</span>" option to one of the roles declared on the site. 
-Each user that is given a default role will have it underlined. However, if some of the users must not have the default rights, you can make them dedicated. Note that dedicated users are also underlined.
+1) **If the site employs Role-Based Access Control**, you can specify a default role for all domain users by setting the "<span class="text-blue">user default role</span>" option to one of the roles declared on the site. Each user that is given a default role will have it underlined. However, if some of the users must not have the default rights, you can make them dedicated. Note that dedicated users are also underlined.
 
 Let's recall our demo site "Surveillance System". Earlier, we explicitly assigned roles to three users, and two Contact users remained in the <span class="text-red">DENIED USERS</span> section (Guest not considered):
 
@@ -64,8 +63,17 @@ After clicking "<span class="text-green">save</span>" we have the following view
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_9.png %})
 
-If the site employs Plain Access Control, the owner can set the "Implicit users" option of the site to <span class="text-green">allowed</span>.  
+2) **If the site employs Plain Access Control**, you can set the "Implicit users" option to "<span class="text-green">allowed</span>" to add the domain users to the site implicitly. The option is displayed in the "<span class="text-blue">access defaults</span>" section. However, you may want to prevent certain users from being added to the site by applying this option. In this case, you can make them dedicated. Note that implicit and explicit users have equal access rights to the service.  
 
+Let's consider the demo site "Alarm System". Currently, the "Implicit users" option is set to "<span class="text-red">denied</span>":
+
+![]({{ site.baseurl }}{% link assets/images/image_usr.3_10.png %})
+
+Clicking the "<span class="text-green">allow</span>" button makes the "Implicit users" option enabled:
+
+![]({{ site.baseurl }}{% link assets/images/image_usr.3_11.png %})
+
+Users implicitly added to the site are moved to the "<span class="text-blue">implicit users</span>" section. To the left of each user in this section, an "<span class="text-cyan">exp</span>" button is displayed, clicking on which makes the user explicitly added to the site and moves it to the "<span class="text-blue">explicit users</span>" section. Note that because Stewart is a dedicated user, the default access settings are not applied to it.
 
 ---
 #### TABLE OF CONTENTS
