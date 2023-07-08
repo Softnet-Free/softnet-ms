@@ -32,7 +32,7 @@ We provide them to the client application and connect it to the site. If everyth
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.4_5.png %})
 
-Typically, a client is represented on the site by a **client key** and **client description**. The **client key** is created by the site, but the **client description** is provided by the client itself. The latter is optional but highly desirable parameter. It usually contains the functional description of the client and its version, which helps the owner in administrative tasks. In case of our example, the client is presented by:  
+Typically, a client is represented on the site by a **client key** and **client description**. The **client key** is created by the site, but the **client description** is provided by the client itself. The latter is optional but highly desirable parameter. It usually contains the functional description of the client and its version, which helps the owner in administrative tasks. In case of our example, the client is represented by:  
 * <span class="text-caption">client key</span>: x6sgw0syd8
 * <span class="text-caption">description</span>: Remote Control. V: 1.0.2
 
