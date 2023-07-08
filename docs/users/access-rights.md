@@ -69,7 +69,7 @@ Let's consider the demo site "Alarm System". Currently, the "Implicit users" opt
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_10.png %})
 
-Clicking the "<span class="text-green">allow</span>" button makes the "Implicit users" option enabled:
+Clicking the "<span class="text-green">allow</span>" button makes the "Implicit users" option allowed:
 
 ![]({{ site.baseurl }}{% link assets/images/image_usr.3_11.png %})
 
