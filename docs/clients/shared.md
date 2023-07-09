@@ -27,6 +27,8 @@ And the following image shows how this client appears in the account of Markus S
 
 ![]({{ site.baseurl }}{% link assets/images/image_clt.2_5.png %})
 
+As you can see, the device owner is unable to edit client entities created by their contacts, only view them.
+
 ---
 #### TABLE OF CONTENTS
 * [10.1. It's just a piece of cake]({{ site.baseurl }}{% link docs/clients/management.md %})

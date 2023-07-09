@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 11. Guest access & public services
+title: 11. Guest access
 nav_order: 11
 ---
 
-# 11. Guest access & public services
+# 11. Guest access
