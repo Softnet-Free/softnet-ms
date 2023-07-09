@@ -7,7 +7,7 @@ nav_order: 1
 
 ## 10.1. It's just a piece of cake
 
-To open the client manager of a site, click the "<span class="text-cyan">clients</span>" button:
+Client management operations are performed in the <span class="header-green">CLIENT MANAGER</span> panel. Clicking the "<span class="text-cyan">clients</span>" button opens the manager:
 
 ![]({{ site.baseurl }}{% link assets/images/image_clt.1_1.png %})
 
@@ -50,3 +50,8 @@ By default, the Ping Period is 300 seconds (5 minutes). The developer or the dev
 In the image below, the ping period is set to 30 seconds. It is shown as "<span class="text-green">P</span>: 30":
 
 ![]({{ site.baseurl }}{% link assets/images/image_clt.1_8.png %})
+
+---
+#### TABLE OF CONTENTS
+* 10.1. It's just a piece of cake
+* [10.2. Clients of shared devices]({{ site.baseurl }}{% link docs/clients/shared.md %})

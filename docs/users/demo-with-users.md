@@ -1,6 +1,5 @@
 ---
 layout: default
-parent: 9. Users & access rights
 ---
 
 [Go back]({{ site.baseurl }}{% link docs/users/access-rights.md %})
