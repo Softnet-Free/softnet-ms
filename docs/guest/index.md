@@ -10,9 +10,17 @@ Some service applications may support guest access. It is convenient for users a
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_1.png %})
 
-1) The <span class="text-blue">guest status</span> section displays the <span class="text-green">allowed</span>/<span class="text-red">denied</span> status of the Guest user and a button to change this status to the opposite one. If it is set to <span class="text-green">allowed</span>, the Guest user is in the <span class="text-blue">users</span> section and guest clients are allowed. Otherwise, if it is set to <span class="text-red">denied</span>, the Guest user is in the <span class="text-red">DENIED USERS</span> section and guest clients are denied.  
+1) The <span class="text-blue">guest status</span> section displays the allowed/denied status of **Guest** and a button to change this status to the opposite one. If it is set to <span class="text-green">allowed</span>, Guest is placed in the <span class="text-blue">users</span> section and guest clients are allowed. Otherwise, if it is set to <span class="text-red">denied</span>, Guest is placed in the <span class="text-red">DENIED USERS</span> section and guest clients are denied.  
 2) The <span class="text-blue">guest page</span> section displays the guest page URL, where any Softnet user can create stateful guest clients to communicate with the service even if he/she has no registration on the Softnet MS.  
 
-If a Softnet user is not signed in to Softnet MS, a stateful client can be created on the guest page using the user's email. The guest page offers to send a confirmation mail message to the user's email and follow the url from the inbox of the email to create the client entity for a statefull guest client. This type of clients are called "Guest Clients by EMail". In the image below, the guest page for the "SITE_1" is shown:
+If a Softnet user is not signed in to Softnet MS, a stateful client can be created on the guest page using the user's email. The guest page offers to send a confirmation mail to the user's email and follow the url from the inbox of the email to create the client entity for a statefull guest client. This type of clients are called "Guest Clients by EMail". In the image below, the guest page for the "SITE_1" considered above is shown:
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_2.png %})
+
+In the next image, a guest client creation URL contained in the confirmation mail is opened:
+
+![]({{ site.baseurl }}{% link assets/images/image_guest.1_3.png %})
+
+Clicking the "<span class="text-green">create a guest client</span>" button creates a stateful guest client like in the next image:
+
+![]({{ site.baseurl }}{% link assets/images/image_guest.1_4.png %})
