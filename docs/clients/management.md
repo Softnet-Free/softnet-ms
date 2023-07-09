@@ -7,7 +7,7 @@ nav_order: 1
 
 ## 10.1. It's just a piece of cake
 
-Client management operations are performed in the <span class="header-green">CLIENT MANAGER</span> panel. Clicking the "<span class="text-cyan">clients</span>" button opens the manager:
+Client management operations are performed in the <span class="header-green">CLIENT MANAGEMENT</span> panel. Clicking the "<span class="text-cyan">clients</span>" button opens the manager:
 
 ![]({{ site.baseurl }}{% link assets/images/image_clt.1_1.png %})
 
