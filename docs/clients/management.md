@@ -51,6 +51,14 @@ In the image below, the ping period is set to 30 seconds. It is shown as "<span 
 
 ![]({{ site.baseurl }}{% link assets/images/image_clt.1_8.png %})
 
+Client applications you connect to the site must be designed to consume the service set up on the site. As you know, the service interface is denoted by the names of &lt;<span class="text-st">Service Type</span>&gt; (&lt;<span class="text-st">Contract Author</span>&gt;). When a client app connects to the site, it provides the site with the names of &lt;<span class="text-st">Service Type</span>&gt; (&lt;<span class="text-st">Contract Author</span>&gt;) of the interface for which it is designed. If they are not identical to what the site expects, the client will be assigned the status "<span class="text-red">service type conflict</span>" and blocked. If you encounter this error, just disconnect the wrong client and connect the right one.  
+
+For example, the image below demonstrates such a scenario. A client designed for the interface <span class="text-st">NightVision-FX5</span> (<span class="text-st">Avalon</span>) is connected to the site built for the service interface <span class="text-st">RTX-5</span> (<span class="text-st">Cold Vision</span>):
+
+![]({{ site.baseurl }}{% link assets/images/image_clt.1_9.png %})
+
+In case of the "<span class="text-red">service type conflict</span>" error, the client entity shows in red the &lt;<span class="text-red">Service Type</span>&gt; (&lt;<span class="text-red">Contract Author</span>&gt;) for which the client is designed. 
+
 ---
 #### TABLE OF CONTENTS
 * 10.1. It's just a piece of cake
