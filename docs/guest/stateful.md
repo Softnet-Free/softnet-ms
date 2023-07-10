@@ -16,11 +16,11 @@ If the service supports stateful guest clients, the site on which it is set up a
 
 ### 11.1.1. Guest clients by email
 
-If a Softnet user is not signed in to Softnet MS, a stateful client can be created on the guest page using the user's email. The guest page prompts the user to send a confirmation mail to the user's email and navigate to the URL from the email's inbox to create a client entity for the stateful guest client. This type of clients are called "guest clients by email". In the image below, a guest page for "SITE_1" located at "<span style="color:#3399FF">http://ts.softnet-iot.org/guest.aspx?site=d8p585b3p</span>" is shown:
+If a Softnet user does not have a Softnet MS account, a stateful client can be created by an anonymous user in three steps. In the first step, the user opens the guest page using the URL displayed on the site. On the guest page, the user sends a confirmation mail to his/her email. In the second step, the user goes to their email and opens the confirmation mail from the inbox. In the third step, the user navigates to the URL from the confirmation mail, which takes him/her to the page called “New Guest Client by EMail”. This page contains a  "<span class="text-green">create a guest client</span>" button that, when clicked, creates a client entity for a stateful guest client. This type of clients are called "guest clients by email". In the image below, a guest page for "SITE_1" located at "<span style="color:#3399FF">http://ts.softnet-iot.org/guest.aspx?site=d8p585b3p</span>" is shown:
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_2.png %})
 
-In the next image, a guest client creation URL contained in the confirmation mail is opened:
+In the next image, a guest client creation URL contained in the confirmation mail is navigated:
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_3.png %})
 
