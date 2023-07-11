@@ -28,6 +28,18 @@ Clicking the "<span class="text-green">create a guest client</span>" button crea
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_4.png %})
 
-You can browse and manage all guest clients created using a certain email address on the page called <span class="header-green">GUEST CLIENTS BY EMAIL</span>. Click on the main menu item "Guest Clients By EMail" to open this page:
+You can browse and manage all guest clients you created using the email address on the page called <span class="header-green">GUEST CLIENTS BY EMAIL</span>. Click on the main menu item "Guest Clients By EMail" to open this page:
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_5.png %})
+
+The page prompts you to enter your email address and send a confirmation mail which contains a browsing URL. Navigating this URL opens the <span class="header-green">OWNERS AND DOMAINS</span> panel that displays owners and their domains where you have guest client entities. A browsing URL is valid for 7 days. In the image below, you can see what this page has displayed for my email address that I provided to the form above. It shows that I have guest client entities in the “Holiday Vision” domain that belongs to Markus Schmidt:
+
+![]({{ site.baseurl }}{% link assets/images/image_guest.1_6.png %})
+
+The next image shows that I have 3 guest clients in this domain. Note that a browsing URL only allows an anonymous user to browse client entities, not edit them:
+
+![]({{ site.baseurl }}{% link assets/images/image_guest.1_7.png %})
+
+To edit any of those clients, the browsing panel offers the user to send an editing URL to the same email address by which the user created the browsing URL. Then the user can navigate this URL from the inbox of their email and edit the guest client. An editing URL is only valid for 30 minutes. On the browsing panel, the user can also send a confirmation mail to create a new guest client:
+
+![]({{ site.baseurl }}{% link assets/images/image_guest.1_8.png %})
