@@ -63,3 +63,8 @@ The next image shows that I have 3 guest clients in this domain. Note that a bro
 To edit any of those clients, the browsing panel offers the user to send an editing URL to the same email address by which the user created the browsing URL. Then the user can navigate this URL from the inbox of their email and edit the guest client. An editing URL is only valid for 30 minutes. On the browsing panel, the user can also send a confirmation mail to create a new guest client:
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_8.png %})
+
+---
+#### TABLE OF CONTENTS
+* 11.1. Stateful guest clients
+* [11.2. Conventional guest clients]({{ site.baseurl }}{% link docs/guest/stateless.md %})
