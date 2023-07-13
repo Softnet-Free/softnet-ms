@@ -7,7 +7,7 @@ nav_order: 1
 
 ## 2.1. Free registration
 
-At the top right of the panel click the "New User" button:  
+At the top right of the panel, click the "New User" button:  
 
 ![]({{ site.baseurl }}{% link assets/images/image_2.1_1.png %})
 
