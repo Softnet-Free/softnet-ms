@@ -7,7 +7,9 @@ nav_order: 1
 
 ## 11.1. Stateful guest clients
 
-If the service supports stateful guest clients, the site on which it is set up acquires two more sections: <span class="text-blue">guest status</span> and <span class="text-blue">guest page</span>. In the image below, IP cameras called <span class="text-st">RTX-5</span> (<span class="text-st">Cold Vision</span>) support stateful guest clients:
+If the service supports stateful guest clients, the site on which it is set up acquires two more sections: <span class="text-blue">guest status</span> and <span class="text-blue">guest page</span>.  
+
+In the image below, IP cameras called <span class="text-st">RTX-5</span> (<span class="text-st">Cold Vision</span>) support stateful guest clients:
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_1.png %})
 
@@ -36,7 +38,7 @@ The next image shows that Julia has two guest clients in this domain:
 
 A person who does not have an account on a given Softnet network, i.e. an anonymous user, can create stateful guest clients using their email. The procedure consists of three steps. In the first step, the user opens the guest page using the URL displayed on the site. On the guest page, the user sends a confirmation mail to his/her email. In the second step, the user goes to their email and opens the confirmation mail from the inbox. In the third step, the user navigates to the URL from the confirmation mail, which takes him/her to the page called “New Guest Client by EMail”. This page contains a  "<span class="text-green">create a guest client</span>" button that, when clicked, creates a client entity for a stateful guest client. This type of clients are called **guest clients by email**.  
 
-In the image below, a guest page for "SITE_1" located at "<span style="color:#3399FF">http://ts.softnet-iot.org/guest.aspx?site=d8p585b3p</span>" is shown:
+The image below shows the guest page of the site "SITE_1", on which two IP cameras are set up. The page address is displayed in the "<span class="text-blue">guest page</span>" section of the site shown above.
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_2.png %})
 

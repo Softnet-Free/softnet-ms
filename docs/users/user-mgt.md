@@ -7,7 +7,7 @@ nav_order: 2
 
 ## 9.2. User management
 
-This section describes the operations you can perform on domain users. Three kinds of users are considered: integrated user Owner, Private users and Contact users. Integrated user Guest is considered in "[Guest access & public services]({{ site.baseurl }}{% link docs/guest/index.md %})" chapter. The "Office Automation" demo project is used to demonstrate user management.
+This section describes the operations you can perform on domain users. Three kinds of users are considered: integrated user Owner, Private users and Contact users. Integrated user Guest is considered in "[Guest access]({{ site.baseurl }}{% link docs/guest/index.md %})" chapter. The "Office Automation" demo project is used to demonstrate user management.
 
 ### 9.2.1. Creating new users
 
