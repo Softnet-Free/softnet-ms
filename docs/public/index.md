@@ -37,3 +37,33 @@ The selected domain with public services displays all sites with guest access en
 A user that is not logged-in on Softnet MS can open the "Public Services" page by clicking the main menu item "Public Services":
 
 ![]({{ site.baseurl }}{% link assets/images/image_public.2_1.png %})
+
+First, as with registered users, the user searches for the service owner. If the service owner is found, clicking on their name opens the page that displays all the owner's domains with public services.
+
+In the following image, the search filter “mar dt” is used to search for Markus Schmidt:
+
+![]({{ site.baseurl }}{% link assets/images/image_public.2_2.png %})
+
+Markus Schmidt is selected again:
+
+![]({{ site.baseurl }}{% link assets/images/image_public.2_3.png %})
+
+And in the next image, the "Holiday Vision" domain is opened:
+
+![]({{ site.baseurl }}{% link assets/images/image_public.2_4.png %})
+
+The process of searching for public services is similar to the one explained in the previous section, which specifically discussed the procedure for registered users. However, the pocedure of creating stateful guest clients is different for Softnet anonymous users. As you can see, each site has a "<span class="text-cyan">new guest client</span>" button in the bottom left corner. Clicking this button opens the dialog to send a confirmation mail to the user's email containing the URL for creating a new guest client. The procedure is similar to that described in the "[Guest client management by anonymous users]({{ site.baseurl }}{% link docs/guest/stateful.md %}#1112-guest-client-management-by-anonymous-users)" section.  
+
+This is how the "new guest client" dialog looks like:
+
+![]({{ site.baseurl }}{% link assets/images/image_public.2_5.png %})
+
+In the next image, I sent a confirmation mail to my email and received a guest client creation URL, then this URL is opened:
+
+![]({{ site.baseurl }}{% link assets/images/image_public.2_6.png %})
+
+Clicking the "<span class="text-green">create a guest client</span>" button creates a stateful guest client:
+
+![]({{ site.baseurl }}{% link assets/images/image_public.2_7.png %})
+
+All client entities created in the “Public services” section for an anonymous user then appear in the “Guest Clients by EMail” section and can be managed in the way described in the "[Guest client management by anonymous users]({{ site.baseurl }}{% link docs/guest/stateful.md %}#1112-guest-client-management-by-anonymous-users)" section.

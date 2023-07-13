@@ -42,7 +42,7 @@ The image below shows the guest page of the site "SITE_1", on which two IP camer
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_2.png %})
 
-I sent a confirmation mail to my email and received a guest client creation URL. In the next image, this URL is navigated:
+In the next image, I sent a confirmation mail to my email and received a guest client creation URL, then this URL is opened:
 
 ![]({{ site.baseurl }}{% link assets/images/image_guest.1_3.png %})
 
