@@ -8,7 +8,7 @@ nav_order: 12
 
 In Softnet, services that provide guest access are called public services. Users can find public services they are interested in on the "Public Services" page. The procedure of creating guest clients for public services depends on whether the user has an account with Softnet MS.
 
-## 12.1. Public services for registered Softnet users
+## 12.1. Creating guest clients by registered Softnet users
 
 A logged-in user can open the "Public Services" page by clicking the main menu item "Public -> Public Services":
 
@@ -32,7 +32,7 @@ And in the next image, the "Holiday Vision" domain is opened:
 
 The selected domain with public services displays all sites with guest access enabled. Each site has a section called "<span class="text-blue">guest clients</span>" where the site displayes client entities that the user has already created. The user can set up a new client by clicking on the "<span class="text-green">add client</span>" button and configuring it in the usual way. All client entities created in the "Public services" section then appear in the "My Guest Clients" section of the user and can be managed in the usual way.
 
-## 12.2. Public services for anonymous Softnet users
+## 12.2. Creating guest clients by anonymous Softnet users
 
 A user that is not logged-in on Softnet MS can open the "Public Services" page by clicking the main menu item "Public Services":
 
@@ -44,7 +44,7 @@ In the following image, the search filter “mar dt” is used to search for Mar
 
 ![]({{ site.baseurl }}{% link assets/images/image_public.2_2.png %})
 
-Markus Schmidt is selected again:
+As in the previous section, clicking his name shows the list of domains with public services:
 
 ![]({{ site.baseurl }}{% link assets/images/image_public.2_3.png %})
 
@@ -52,13 +52,13 @@ And in the next image, the "Holiday Vision" domain is opened:
 
 ![]({{ site.baseurl }}{% link assets/images/image_public.2_4.png %})
 
-The process of searching for public services is similar to the one explained in the previous section, which specifically discussed the procedure for registered users. However, the pocedure of creating stateful guest clients is different for Softnet anonymous users. As you can see, each site has a "<span class="text-cyan">new guest client</span>" button in the bottom left corner. Clicking this button opens the dialog to send a confirmation mail to the user's email containing the URL for creating a new guest client. The procedure is similar to that described in the "[Guest client management by anonymous users]({{ site.baseurl }}{% link docs/guest/stateful.md %}#1112-guest-client-management-by-anonymous-users)" section.  
+The process of searching for public services is similar to the one explained in the previous section. However, the pocedure of creating stateful guest clients is different for anonymous users. As you can see, each site has a "<span class="text-cyan">new guest client</span>" button in the bottom left corner. Clicking this button opens the dialog to send a confirmation mail to the user's email containing the URL for creating a new guest client. The procedure is similar to that described in the "[Guest client management by anonymous users]({{ site.baseurl }}{% link docs/guest/stateful.md %}#1112-guest-client-management-by-anonymous-users)" section.  
 
-This is how the "new guest client" dialog looks like:
+This is what the "new guest client" dialog looks like:
 
 ![]({{ site.baseurl }}{% link assets/images/image_public.2_5.png %})
 
-In the next image, I sent a confirmation mail to my email and received a guest client creation URL, then this URL is opened:
+Using this dialog, I sent a confirmation mail to my email and received a guest client creation URL. Then in the image below, I opened it: 
 
 ![]({{ site.baseurl }}{% link assets/images/image_public.2_6.png %})
 
@@ -66,4 +66,4 @@ Clicking the "<span class="text-green">create a guest client</span>" button crea
 
 ![]({{ site.baseurl }}{% link assets/images/image_public.2_7.png %})
 
-All client entities created in the “Public services” section for an anonymous user then appear in the “Guest Clients by EMail” section and can be managed in the way described in the "[Guest client management by anonymous users]({{ site.baseurl }}{% link docs/guest/stateful.md %}#1112-guest-client-management-by-anonymous-users)" section.
+All client entities created in the “Public services” section by an anonymous user then appear in the “Guest Clients by EMail” section and can be managed in the way described in the "[Guest client management by anonymous users]({{ site.baseurl }}{% link docs/guest/stateful.md %}#1112-guest-client-management-by-anonymous-users)" section.
