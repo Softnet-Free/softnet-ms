@@ -6,8 +6,6 @@ nav_order: 1
 
 # 1. Fundamentals
 
-This chapter explains the basic terms and principles used in Softnet MS. Understanding the Softnet MS fundamentals can help you deploy complex IoT projects. However, if you do not want to go into details and want to quickly deploy a few simple devices, you can skip to the [next chapter]({{ site.baseurl }}{% link docs/registration/index.md %}).  
-
 In terms of Softnet, a person or organization registered with Softnet MS is called an **owner**, which means device owner or project owner. An owner can be in one of three possible roles. An owner in the **Provider** role can deploy IoT projects and share devices with other persons or organizations. An owner in the **Consumer** role can only consume devices deployed by Providers. A Consumer is not allowed to deploy their own devices. The third role that Softnet MS supports is **Administrator**. An owner in this role is called an administrator and manages the entire management system.  
 
 Softnet employs the concept of a **domain** for managing an IoT project. In a domain, autonomous devices and clients are represented as **services** and **clients**, respectively. A domain also contains a list of users. The owner assigns access rights to users for the services deployed in the domain. Some services may employ role-based access control (RBAC) to implement various levels of access to the service (or device features). In this case, the owner can distribute roles defined by the services among domain users.  
