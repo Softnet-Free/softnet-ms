@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 1. Fundamentals
-nav_order: 1
+title: 4. Fundamentals
+nav_order: 4
 ---
 
-# 1. Fundamentals
+# 4. Fundamentals
 
 In terms of Softnet, a person or organization registered with Softnet MS is called an **owner**, which means device owner or project owner. An owner can be in one of three possible roles. An owner in the **Provider** role can deploy IoT projects and share devices with other persons or organizations. An owner in the **Consumer** role can only consume devices deployed by Providers. A Consumer is not allowed to deploy their own devices. The third role that Softnet MS supports is **Administrator**. An owner in this role is called an administrator and manages the entire management system.  
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 3.4. Setting up clients
-parent: 3. Deploying a single device
+title: 2.4. Setting up clients
+parent: 2. Quickly deploying a single device
 nav_order: 4
 ---
 
-## 3.4. Setting up clients
+## 2.4. Setting up clients
 
 Client management is carried out on the CLIENT MANAGER page. To switch to the client manager, click on the "clients" button at the upper left corner of the panel:
 
@@ -61,7 +61,7 @@ It’s worth noting that the mechanism of **Contacts** offers a much more effici
 
 ---
 #### TABLE OF CONTENTS
-* [3.1. Creating a domain]({{ site.baseurl }}{% link docs/single/sections/new-domain.md %})
-* [3.2. Setting up a device]({{ site.baseurl }}{% link docs/single/sections/setup-dev.md %})
-* [3.3. Assigning access rights to users]({{ site.baseurl }}{% link docs/single/sections/access-rights.md %})
-* 3.4. Setting up clients
+* [2.1. Creating a domain]({{ site.baseurl }}{% link docs/single/new-domain.md %})
+* [2.2. Setting up a device]({{ site.baseurl }}{% link docs/single/setup-dev.md %})
+* [2.3. Assigning access rights to users]({{ site.baseurl }}{% link docs/single/access-rights.md %})
+* 2.4. Setting up clients

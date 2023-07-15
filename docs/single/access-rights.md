@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 3.3. Assigning access rights to users
-parent: 3. Deploying a single device
+title: 2.3. Assigning access rights to users
+parent: 2. Quickly deploying a single device
 nav_order: 3
 ---
 
-## 3.3. Assigning access rights to users
+## 2.3. Assigning access rights to users
 
 Let’s say the project owner has a family member that also want to have a remote control client on their smartphone. It would be quite reasonable if the owner assigns the <span class="text-role">Administrator</span> role to the Owner user (i.e., to himself/herself) and the <span class="text-role">User</span> role to a family member's user.  
 
@@ -51,11 +51,11 @@ We check the <span class="text-role">User</span> role and click "save". This res
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.3_9.png %})
 
-Now, we are ready to set up clients on the site. This is a topic of the [next section]({{ site.baseurl }}{% link docs/single/sections/setup-clients.md %})
+Now, we are ready to set up clients on the site. This is a topic of the [next section]({{ site.baseurl }}{% link docs/single/setup-clients.md %})
 
 ---
 #### TABLE OF CONTENTS
-* [3.1. Creating a domain]({{ site.baseurl }}{% link docs/single/sections/new-domain.md %})
-* [3.2. Setting up a device]({{ site.baseurl }}{% link docs/single/sections/setup-dev.md %})
-* 3.3. Assigning access rights to users
-* [3.4. Setting up clients]({{ site.baseurl }}{% link docs/single/sections/setup-clients.md %})
+* [2.1. Creating a domain]({{ site.baseurl }}{% link docs/single/new-domain.md %})
+* [2.2. Setting up a device]({{ site.baseurl }}{% link docs/single/setup-dev.md %})
+* 2.3. Assigning access rights to users
+* [2.4. Setting up clients]({{ site.baseurl }}{% link docs/single/setup-clients.md %})

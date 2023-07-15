@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 2.1. Free registration
-parent: 2. Registering in Softnet MS
+title: 1.1. Free registration
+parent: 1. Registering with Softnet MS
 nav_order: 1
 ---
 
-## 2.1. Free registration
+## 1.1. Free registration
 
 At the top right of the panel, click the "New User" button:  
 
@@ -33,5 +33,5 @@ Type the required parameters and create an account. If everything is Ok, you’l
 
 ---
 #### TABLE OF CONTENTS
-* 2.1. Free registration
-* [2.2. Registering by invitation]({{ site.baseurl }}{% link docs/registration/sections/regby-invitation.md %})
+* 1.1. Free registration
+* [1.2. Registering by invitation]({{ site.baseurl }}{% link docs/registration/regby-invitation.md %})

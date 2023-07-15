@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 3.2. Setting up a device
-parent: 3. Deploying a single device
+title: 2.2. Setting up a device
+parent: 2. Quickly deploying a single device
 nav_order: 2
 ---
 
-## 3.2. Setting up a device
+## 2.2. Setting up a device
 
 To set up a Smart Home controller, we create a site. The controller will be presented on the site as a **service**. Clicking the "new site" button takes us to the "New Site" page:
 
@@ -44,11 +44,11 @@ Let's take a look at 5 parameters circled in the following image:
 4.	Here you can select one of the roles listed above as the default role for every domain user. This is useful if you have many users and want to assign to all of them one specific role by default rather than explicitly assigning that role to each user;  
 5.	Users that do not have any access rights to the service are listed in the <span class="text-red">DENIED USERS</span> section.  
 
-In the [next section]({{ site.baseurl }}{% link docs/single/sections/access-rights.md %}) we'll assign access rights to users.
+In the [next section]({{ site.baseurl }}{% link docs/single/access-rights.md %}) we'll assign access rights to users.
 
 ---
 #### TABLE OF CONTENTS
-* [3.1. Creating a domain]({{ site.baseurl }}{% link docs/single/sections/new-domain.md %})
-* 3.2. Setting up a device
-* [3.3. Assigning access rights to users]({{ site.baseurl }}{% link docs/single/sections/access-rights.md %})
-* [3.4. Setting up clients]({{ site.baseurl }}{% link docs/single/sections/setup-clients.md %})
+* [2.1. Creating a domain]({{ site.baseurl }}{% link docs/single/new-domain.md %})
+* 2.2. Setting up a device
+* [2.3. Assigning access rights to users]({{ site.baseurl }}{% link docs/single/access-rights.md %})
+* [2.4. Setting up clients]({{ site.baseurl }}{% link docs/single/setup-clients.md %})

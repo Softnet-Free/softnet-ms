@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 2. Registering in Softnet MS
-nav_order: 2
+title: 1. Registering with Softnet MS
+nav_order: 1
 has_children: true
 ---
 
-# 2. Registering in Softnet MS
+# 1. Registering with Softnet MS
 
 Without an account on Softnet MS you can only use public services deployed on the network, otherwise you need to create an account. If the administrator enabled free registrations, you can create an account on you own, otherwise you need an invitation URL provided by the administrator.  
 

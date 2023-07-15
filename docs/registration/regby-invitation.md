@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 2.2. Registering by invitation
-parent: 2. Registering in Softnet MS
+title: 1.2. Registering by invitation
+parent: 1. Registering with Softnet MS
 nav_order: 2
 ---
 
-## 2.2. Registering by invitation
+## 1.2. Registering by invitation
 
 If the "New User" button is not shown at the top right of the panel, creating an account is possible only by an invitation URL provided by the administrator:  
 
@@ -15,7 +15,7 @@ To create an account by invitation, provide the administrator with your email ad
 
 ![]({{ site.baseurl }}{% link assets/images/image_2.2_2.png %})
 
-If you get the invitation URL itself, it might look like this:  
+If you get the invitation URL itself, it might look something like this:  
 
 ![]({{ site.baseurl }}{% link assets/images/image_2.2_3.png %})
 
@@ -29,5 +29,5 @@ Type the required parameters and create an account. If everything is Ok, you’l
 
 ---
 #### TABLE OF CONTENTS
-* [2.1. Free registration]({{ site.baseurl }}{% link docs/registration/sections/free-registration.md %})
-* 2.2. Registering by invitation
+* [1.1. Free registration]({{ site.baseurl }}{% link docs/registration/free-registration.md %})
+* 1.2. Registering by invitation

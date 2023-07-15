@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 4.3. Setting up devices
-parent: 4. Deploying multiple identical devices
+title: 3.3. Setting up devices
+parent: 3. Quickly deploying identical devices
 nav_order: 3
 ---
 
-## 4.3. Setting up devices on a multi-service site
+## 3.3. Setting up devices on a multi-service site
 
 At this moment, our multi-service site contains nothing but one blank service entity with status "<span class="text-red">service type undefined</span>". And the site status is "<span class="text-red">site blank</span>":
 
@@ -75,8 +75,8 @@ To set up the next device, we create a new service entity and repeat all those s
 
 ---
 #### TABLE OF CONTENTS
-* [4.1. Creating a domain]({{ site.baseurl }}{% link docs/multi/sections/new-domain.md %})
-* [4.2. Creating a multi-service site]({{ site.baseurl }}{% link docs/multi/sections/msite.md %})
-* 4.3. Installing devices
+* [3.1. Creating a domain]({{ site.baseurl }}{% link docs/multi/new-domain.md %})
+* [3.2. Creating a multi-service site]({{ site.baseurl }}{% link docs/multi/msite.md %})
+* 3.3. Setting up devices
 
 
