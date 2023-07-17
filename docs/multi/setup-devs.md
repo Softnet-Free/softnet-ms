@@ -32,7 +32,17 @@ When the camera first connects to the site, it provides the required information
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.3_5.png %})
 
-Let’s change the default service’s hostname, "Service1", to "Camera 1". Clicking the "&gt;&gt;" button, which is to the left of the name "Service1", opens the service management panel: 
+Let's take a look at 5 parameters circled in the following image:
+
+![]({{ site.baseurl }}{% link assets/images/image_mdp.3_5.1.png %})
+
+1.	These are the names of &lt;<span class="text-st">Service Type</span>&gt; and &lt;<span class="text-st">Contract Author</span>&gt; provided by the IP camera to the blank site. They indicate the service interface, that is, the device’s functionality. Clients that we are going to set up on the site must be designed to consume the service of this type, i.e.,  <span class="text-st">RTX-5</span> (<span class="text-st">Cold Vision</span>);  
+2.	If your service application employs versioning, the service version will appear in this place;  
+3.	If your service application employs role-based access control (RBAC), the list of roles will appear in this place. You can assign these roles to domain users;  
+4.	Here you can select one of the roles listed above as the default role for every domain user. This is useful if you have many users and want to assign to all of them one specific role by default rather than explicitly assigning that role to each user;  
+5.	Users that do not have any access rights to the service are listed in the <span class="text-red">DENIED USERS</span> section.  
+
+Let’s change the default service’s hostname, "Service1", to "Camera 1". Clicking the "<span class="text-cyan">&gt;&gt;</span>" button, which is to the left of the name "Service1", opens the service management panel: 
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.3_6.png %})
 
@@ -56,7 +66,7 @@ Now we have a blank service entity named "Camera 2":
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.3_11.png %})
 
-Clicking the "&gt;&gt;" button opens the service management panel:
+Clicking the "<span class="text-cyan">&gt;&gt;</span>" button opens the service management panel:
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.3_12.png %})
 
@@ -72,11 +82,12 @@ To set up the next device, we create a new service entity and repeat all those s
 
 ![]({{ site.baseurl }}{% link assets/images/image_mdp.3_14.png %})
 
+In the [next section]({{ site.baseurl }}{% link docs/multi/access-rights.md %}) we'll assign access rights to users.
 
 ---
 #### TABLE OF CONTENTS
 * [3.1. Creating a domain]({{ site.baseurl }}{% link docs/multi/new-domain.md %})
 * [3.2. Creating a multi-service site]({{ site.baseurl }}{% link docs/multi/msite.md %})
 * 3.3. Setting up devices
-
-
+* [3.4. Assigning access rights to users]({{ site.baseurl }}{% link docs/multi/access-rights.md %})
+* [3.5. Setting up clients]({{ site.baseurl }}{% link docs/multi/setup-clients.md %})

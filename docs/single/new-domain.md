@@ -7,7 +7,7 @@ nav_order: 1
 
 ## 2.1. Creating a domain
 
-To deploy a project, we create a domain as it is demonstrated in section "[Creating a doman]({{ site.baseurl }}{% link docs/domains/new-domain.md %})" of the "Domains & projects" chapter. We call the domain "Home Automation":  
+To deploy a project, we create a domain as it is demonstrated in section "[Creating a doman]({{ site.baseurl }}{% link docs/domains/new-domain.md %})" of the "Domains & projects" chapter. Let's name the domain "Home Automation":  
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.1_1.png %})
 

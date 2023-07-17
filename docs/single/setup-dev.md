@@ -7,7 +7,7 @@ nav_order: 2
 
 ## 2.2. Setting up a device
 
-To set up a Smart Home controller, we create a site. The controller will be presented on the site as a **service**. Clicking the "new site" button takes us to the "New Site" page:
+To set up a Smart Home controller, we create a site. The controller will be represented on the site as a **service**. Clicking the "new site" button takes us to the "New Site" page:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.2_1.png %})
 
@@ -30,7 +30,7 @@ Now we have the service URI and password:
 &nbsp;&nbsp;&nbsp;&nbsp;softnet-srv://1c25b985-ed51-436c-ab5a-f3b111e6494b@ts.softnet-iot.org  
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-orange">password:</span> K4aBbKd9K2  
 
-For your device, the service account parameters will have a similar format. Enter them into your device and connect it to the site. When your device connects for the first time, the site structure is built according to the information provided by your device. On the site, your device will be represented as a service. For our example, we have the following:
+For your device, the service account data will have a similar format. Enter them into your device and connect it to the site. When a device connects to the site for the first time, the site structure is built according to the information provided by the device. On the site, the device will be represented as a service. For our example, we have the following:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.2_5.png %})
 

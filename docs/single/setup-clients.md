@@ -7,7 +7,7 @@ nav_order: 4
 
 ## 2.4. Setting up clients
 
-Client management is carried out on the CLIENT MANAGER page. To switch to the client manager, click on the "clients" button at the upper left corner of the panel:
+Client management is carried out on the <span class="header-green">CLIENT MANAGEMENT</span> page. To switch to the client manager, click on the "<span class="text-cyan">clients</span>" button at the upper left corner of the panel:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.4_1.png %})
 
@@ -15,11 +15,11 @@ Here, you can set up clients for users authorized on the site:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.4_2.png %})
 
-First, we create a client entity for the Owner user to set up a remote control application. Clicking the "add client" button, which is to the right of Owner, creates a client entity:
+First, we create a client entity for the Owner user to set up a remote control application. Clicking the "<span class="text-green">add client</span>" button, which is to the right of Owner, creates a client entity:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.4_3.png %})
 
-Clicking the "generate password" button generates a client password:
+Clicking the "<span class="text-green">generate password</span>" button generates a client password:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.4_4.png %})
 

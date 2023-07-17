@@ -42,3 +42,5 @@ Now we can set up devices on the site. This is a topic of the [next section]({{ 
 * [3.1. Creating a domain]({{ site.baseurl }}{% link docs/multi/new-domain.md %})
 * 3.2. Creating a multi-service site
 * [3.3. Setting up devices]({{ site.baseurl }}{% link docs/multi/setup-devs.md %})
+* [3.4. Assigning access rights to users]({{ site.baseurl }}{% link docs/multi/access-rights.md %})
+* [3.5. Setting up clients]({{ site.baseurl }}{% link docs/multi/setup-clients.md %})
