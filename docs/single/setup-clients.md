@@ -38,11 +38,11 @@ Typically, a client is represented on the site by a **client key** and **client 
 
 We've assigned the <span class="text-role">Adminstrator</span> role to Owner, so the remote control application we've set up can interact with the Smart Home controller with administrative rights.  
 
-Now we'll create a client entity for Alex and set up a remote control application on this entity. Clicking the “add client” button, which is to the right of Alex, creates a client entity:
+Now we'll create a client entity for Alex and set up a remote control application on this entity. Clicking the "<span class="text-green">add client</span>" button, which is to the right of Alex, creates a client entity:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.4_6.png %})
 
-Then clicking on the "generate password" button creates a password:
+Then clicking on the "<span class="text-green">generate password</span>" button creates a password:
 
 ![]({{ site.baseurl }}{% link assets/images/image_sdp.4_7.png %})
 
