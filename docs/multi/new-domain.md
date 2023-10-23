@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3.1. Creating a domain
-parent: 3. Quickly deploying a few identical devices
+parent: 3. Quickly deploying several identical devices
 nav_order: 1
 ---
 
